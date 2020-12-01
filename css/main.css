@@ -317,7 +317,7 @@ section {
 .paragraph {
   display: block;
   word-spacing: 1px;
-  color: #666666;
+  color: #757575;
 }
 
 .questions {
@@ -863,7 +863,7 @@ section {
 
 .footer .navigation__link:link,
 .footer .navigation__link:visited {
-  color: #666666;
+  color: #757575;
   font-weight: 700;
 }
 
