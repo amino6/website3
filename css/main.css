@@ -317,7 +317,7 @@ section {
 .paragraph {
   display: block;
   word-spacing: 1px;
-  color: #757575;
+  color: #767676;
 }
 
 .questions {
@@ -863,7 +863,7 @@ section {
 
 .footer .navigation__link:link,
 .footer .navigation__link:visited {
-  color: #757575;
+  color: #767676;
   font-weight: 700;
 }
 
@@ -899,6 +899,10 @@ section {
 .footer .btn-footer__icon {
   margin-left: 2rem;
   font-size: 1.3rem;
+}
+
+.footer .paragraph {
+  color: #ccc;
 }
 
 .social-icons {
