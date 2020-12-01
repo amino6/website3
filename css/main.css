@@ -863,7 +863,7 @@ section {
 
 .footer .navigation__link:link,
 .footer .navigation__link:visited {
-  color: #767676;
+  color: #ccc;
   font-weight: 700;
 }
 
@@ -899,10 +899,6 @@ section {
 .footer .btn-footer__icon {
   margin-left: 2rem;
   font-size: 1.3rem;
-}
-
-.footer .paragraph {
-  color: #dadada;
 }
 
 .social-icons {

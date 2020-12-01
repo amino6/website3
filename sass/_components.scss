@@ -540,7 +540,7 @@
 
     .navigation__link:link,
     .navigation__link:visited {
-        color: $light-grey;
+        color: $lighter-grey;
         font-weight: 700;
 
         @media only screen and (max-width: 720px) {
@@ -567,10 +567,6 @@
             margin-left: 2rem;
             font-size: 1.3rem;
         }
-    }
-
-    .paragraph {
-        color: $lighter-grey;
     }
 }
 
