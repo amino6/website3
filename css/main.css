@@ -317,7 +317,7 @@ section {
 .paragraph {
   display: block;
   word-spacing: 1px;
-  color: #888;
+  color: #666666;
 }
 
 .questions {
@@ -682,7 +682,6 @@ section {
 
 .services .service .paragraph {
   font-size: 1.5rem;
-  color: red;
 }
 
 .services .service-icon:before {
@@ -864,7 +863,7 @@ section {
 
 .footer .navigation__link:link,
 .footer .navigation__link:visited {
-  color: #888;
+  color: #666666;
   font-weight: 700;
 }
 
