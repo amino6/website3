@@ -86,11 +86,11 @@ html {
 
 @media only screen and (max-width: 1024px) {
   html {
-    font-size: 51%;
+    font-size: 44%;
   }
 }
 
-@media only screen and (max-width: 43px) {
+@media only screen and (max-width: 430px) {
   html {
     font-size: 55%;
   }
@@ -930,12 +930,9 @@ section {
   display: -moz-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  margin-left: .7rem;
 }
 
 .social-icons .social-icon:hover {
   cursor: pointer;
-}
-
-.social-icons .social-icon:not(:last-child) {
-  margin-right: .5rem;
 }

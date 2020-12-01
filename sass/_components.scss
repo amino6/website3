@@ -586,13 +586,10 @@
         padding: 1rem 1rem;
         font-size: 1.3rem;
         display: inline-flex;
+        margin-left: .7rem;
         
         &:hover {
             cursor: pointer;
-        }
-        
-        &:not(:last-child) {
-            margin-right: .5rem;
         }
     }
 }
