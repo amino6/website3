@@ -536,6 +536,10 @@
         @media only screen and (max-width: 530px) {
             margin-bottom: 2rem;
         }
+
+        @media only screen and (max-width: 430px) {
+            font-size: 1.8rem;
+        }
     }
 
     .navigation {
@@ -551,6 +555,12 @@
 
         @media only screen and (max-width: 720px) {
             font-size: 1.5rem;
+        }
+    }
+
+    .navigation__item {
+        @media only screen and (max-width: 430px) {
+            margin-right: 1.3rem;
         }
     }
 
