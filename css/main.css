@@ -682,6 +682,7 @@ section {
 
 .services .service .paragraph {
   font-size: 1.5rem;
+  color: red;
 }
 
 .services .service-icon:before {
