@@ -36,6 +36,7 @@
     
     .container:first-child {
         display: flex;
+        align-items: center;
     }
 
     &__text-box {
@@ -514,7 +515,6 @@
 
     &__bottom {
         flex-wrap: wrap;
-        align-items: stretch;
 
         @media only screen and (max-width: 834px) {
             & > *:not(:last-child) {

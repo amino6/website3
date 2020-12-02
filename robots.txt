@@ -1,0 +1,5 @@
+# Group 1
+User-agent: *
+Allow: /
+
+Sitemap: https://festive-minsky-497c89.netlify.app/sitemap.xml
