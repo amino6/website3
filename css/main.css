@@ -434,7 +434,7 @@ section {
       -ms-transform: translateX(-50%);
        -o-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-image: url("../img/building-1.png");
+  background-image: url("../img/building-1.webp");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
