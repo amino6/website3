@@ -24,24 +24,10 @@ html {
 }
 
 body {
-    font-family: sans-serif;
-    line-height: 1.6;
-    font-size: 1.6rem;
-    font-weight: 400;
     background-color: #fdfdfd;
 }
 
-section {
-    padding: 10rem 0;
-    display: block;
-
-    @media only screen and (max-width: 1100px) {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-
-    @media only screen and (max-width: 720px) {
-        padding-top: 6rem;
-        padding-bottom: 6rem;
-    }
+::selection {
+    background-color: $primary-green;
+    color: #fff;
 }

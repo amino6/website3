@@ -1,0 +1,17 @@
+.social-icons {
+    list-style: none;
+
+    .social-icon {
+        display: inline-block;
+        color: #fff;
+        background-color: $dark-grey;
+        padding: 1rem 1rem;
+        font-size: 1.3rem;
+        display: inline-flex;
+        margin-left: .7rem;
+        
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

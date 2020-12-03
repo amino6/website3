@@ -1,0 +1,83 @@
+.header {
+    padding: 2rem 0;
+    font-weight: 700;
+
+    @media only screen and (max-width: 1100px) {
+        padding: 2rem 4rem;
+    }
+
+    .navigation {
+        @media only screen and (max-width: 834px) {
+            display: none;
+        }
+    }
+    
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 30rem;
+        height: 45rem;
+        background-color: $light-blue-2;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 2px;
+
+        @media only screen and (max-width: 430px) {
+            width: 100%;
+            height: 45.5rem;
+        }
+    }
+    
+    .container:first-child {
+        display: flex;
+        align-items: center;
+    }
+
+    &__text-box {
+        margin-top: 18rem;
+        width: 50%;
+
+        @media only screen and (max-width: 834px) {
+            margin-top: 14rem;
+        }
+
+        @media only screen and (max-width: 720px) {
+            width: 100%;
+            text-align: center;
+            margin-top: 8rem;
+        }
+
+        .paragraph {
+            width: 70%;
+
+            @media only screen and (max-width: 720px) {
+                margin: 0 auto;
+            }
+
+            @media only screen and (max-width: 530px) {
+                width: 100%;
+            }
+        }
+    }
+
+    &__hero {
+        position: relative;
+    }
+
+    .number {
+        color: $primary-blue !important;
+        position: relative;
+        z-index: 10;
+    }
+
+    .questions {
+        list-style: none;
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+    
+        .question:not(:last-of-type) {
+            margin-bottom: .5rem;
+        }
+    }
+}

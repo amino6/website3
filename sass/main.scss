@@ -1,5 +1,6 @@
-@import "variables";
-@import "fonts";
-@import "base";
-@import "layout";
-@import "components";
+@import "1-abstracts/main.scss";
+@import "2-vendors/main.scss";
+@import "3-base/main.scss";
+@import "4-components/main.scss";
+@import "5-layout/main.scss";
+@import "6-pages/main.scss";

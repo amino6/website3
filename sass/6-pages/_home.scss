@@ -1,0 +1,111 @@
+.about {
+    background-image: linear-gradient(to bottom, #fff, $light-blue-2);
+    margin-top: 20rem;
+
+    @media only screen and (max-width: 720px) {
+        margin-top: 6rem;
+    }
+
+    @media only screen and (max-width: 530px) {
+        margin-top: 2rem;
+    }
+}
+
+.services {
+    .heading {
+        text-align: right;
+
+        @media only screen and (max-width: 430px) {
+            text-align: center;
+        }
+    }
+
+    &-box {
+        margin-top: 8rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        @media only screen and (max-width: 530px) {
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+    
+        .service {
+            width: 23%;
+
+            @media only screen and (max-width: 834px) {
+                width: 50%;
+                padding: 5rem;
+            }
+
+            @media only screen and (max-width: 530px) {
+                width: 100%;
+                padding: 1rem;
+            }
+        }
+    }
+
+    .service {
+        padding: 3.5rem 2.5rem;
+        display: flex;
+        flex-direction: column;
+        transition: all .1s;
+
+        &:hover {
+            background-color: $light-green-2;
+        }
+
+        .secondary-heading {
+            font-size: 1.6rem;
+        }
+
+        .paragraph {
+            font-size: 1.5rem;
+        }
+    }
+
+    .service-icon:before {
+        padding: 1.5rem;
+        border-radius: 8px;
+        color: $primary-green;
+        background-color: rgba($light-green, .2);
+        margin-bottom: 2rem;
+        display: inline-block !important;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+.about-2 {
+    margin-top: 0;
+
+    @media only screen and (max-width: 530px) {
+        text-align: center;
+    }
+
+    .content__info {
+        align-self: center;
+    }
+
+    .secondary-heading {
+        font-size: 3rem;
+    }
+
+    .paragraph {
+        font-size: 1.4rem;
+        &:not(:last-of-type) {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .banner-wrapper {
+        display: flex;
+        justify-content: flex-end;
+
+        @media only screen and (max-width: 1100px) {
+            margin-bottom: 0;
+            margin-top: 2rem;
+        }
+    }
+}

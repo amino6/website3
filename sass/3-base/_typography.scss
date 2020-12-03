@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.primary-heading {
+    color: #2a303d;
+    margin-bottom: 1.5rem;
+
+    & > * {
+        display: block;
+    }
+
+    &__sub {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        color: $light-blue;
+        letter-spacing: 1px;
+
+        @media only screen and (max-width: 430px) {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__main {
+        font-size: 5rem;
+
+        @media only screen and (max-width: 430px) {
+            font-size: 3rem;
+        }
+
+        &--highlight {
+            display: inline-block;
+            text-decoration: underline;
+            background-color: $light-blue-2;
+            border-radius: 5px;
+        }
+    }
+}
+
+.paragraph {
+    display: block;
+    word-spacing: 1px;
+    color: $light-grey;
+}
+
+.secondary-heading {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.tertiary-heading {
+    font-size: 1.6rem;
+    color: $primary-blue;
+    margin-bottom: 2rem;
+}
