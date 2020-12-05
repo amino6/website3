@@ -1,6 +1,26 @@
-@import "1-abstracts/main.scss";
-@import "2-vendors/main.scss";
-@import "3-base/main.scss";
-@import "4-components/main.scss";
-@import "5-layout/main.scss";
-@import "6-pages/main.scss";
+@import "1-abstracts/variables";
+@import "1-abstracts/functions";
+@import "1-abstracts/mixins";
+
+@import "2-vendors/icomoon";
+
+@import "3-base/base";
+@import "3-base/typography";
+@import "3-base/utilities";
+@import "3-base/animations";
+
+@import "4-components/logo";
+@import "4-components/banner";
+@import "4-components/icon-wrapper";
+@import "4-components/buttons";
+@import "4-components/content";
+@import "4-components/git-box";
+@import "4-components/social-icons";
+
+@import "5-layout/container";
+@import "5-layout/section";
+@import "5-layout/header";
+@import "5-layout/navigation";
+@import "5-layout/footer";
+
+@import "6-pages/home";

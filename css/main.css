@@ -192,6 +192,19 @@ body {
   margin-bottom: 2rem;
 }
 
+/* .u-center-text { text-align: center !important; }
+
+.u-margin-bottom-small { margin-bottom: 1.5rem !important; }
+.u-margin-bottom-medium {
+    margin-bottom: 4rem !important;
+}
+
+.u-margin-bottom-big { 
+    margin-bottom: 8rem !important;
+}
+
+.u-margin-top-big { margin-top: 8rem !important; }
+.u-margin-top-huge { margin-top: 10rem !important; } */
 @-webkit-keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -208,7 +221,6 @@ body {
             transform: translate(0);
   }
 }
-
 @-moz-keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -225,7 +237,6 @@ body {
          transform: translate(0);
   }
 }
-
 @-o-keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -242,7 +253,6 @@ body {
        transform: translate(0);
   }
 }
-
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -396,19 +406,17 @@ body {
   }
 }
 
-/* .u-center-text { text-align: center !important; }
-
-.u-margin-bottom-small { margin-bottom: 1.5rem !important; }
-.u-margin-bottom-medium {
-    margin-bottom: 4rem !important;
+.logo {
+  margin-right: 8rem;
+  z-index: 10;
 }
 
-.u-margin-bottom-big { 
-    margin-bottom: 8rem !important;
+@media only screen and (max-width: 834px) {
+  .logo {
+    margin-right: 5rem;
+  }
 }
 
-.u-margin-top-big { margin-top: 8rem !important; }
-.u-margin-top-huge { margin-top: 10rem !important; } */
 .banner {
   width: 54rem;
   height: 62rem;
@@ -464,6 +472,17 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.icon-wrapper {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #f6f9ff;
+  color: #0f58d6;
+  margin-right: .7rem;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
 }
 
 .cta-btn {
@@ -651,28 +670,6 @@ body {
      -moz-border-radius: 50%;
           border-radius: 50%;
   margin-top: .4rem;
-}
-
-.icon-wrapper {
-  display: inline-block;
-  padding: 1rem;
-  background-color: #f6f9ff;
-  color: #0f58d6;
-  margin-right: .7rem;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-}
-
-.logo {
-  margin-right: 8rem;
-  z-index: 10;
-}
-
-@media only screen and (max-width: 834px) {
-  .logo {
-    margin-right: 5rem;
-  }
 }
 
 .social-icons {
