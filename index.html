@@ -313,7 +313,12 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/webp-hero@0.0.0-dev.21/dist-cjs/polyfills.js"></script>
+    <script src="https://unpkg.com/webp-hero@0.0.0-dev.21/dist-cjs/webp-hero.bundle.js"></script>
+    <script>
+        var webpMachine = new webpHero.WebpMachine();
+        webpMachine.polyfillDocument();
+    </script>
     <script src="dist/js/script.js"></script>
 </body>
 
