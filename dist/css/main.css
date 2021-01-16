@@ -413,7 +413,13 @@ body {
 
 @media only screen and (max-width: 834px) {
   .logo {
-    margin-right: auto;
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .logo {
+    margin-right: 0;
   }
 }
 
@@ -785,12 +791,18 @@ section {
   width: 2.8rem;
   height: 2px;
   background-color: #2d314d;
-  margin-bottom: 5px;
+  margin-bottom: .5rem;
 }
 
 @media only screen and (max-width: 834px) {
   .header .btn-hamburger {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .header .btn-hamburger {
+    margin-left: .5rem;
   }
 }
 
@@ -837,6 +849,13 @@ section {
   color: #0f58d6 !important;
   position: relative;
   z-index: 10;
+}
+
+@media only screen and (max-width: 430px) {
+  .header .number {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .header .questions {

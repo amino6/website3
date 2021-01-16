@@ -40,11 +40,15 @@
             width: 2.8rem;
             height: 2px;
             background-color: #2d314d;
-            margin-bottom: 5px;
+            margin-bottom: .5rem;
         }
 
         @media only screen and (max-width: 834px) {
             display: block;
+        }
+
+        @media only screen and (max-width: 430px) {
+            margin-left: .5rem;
         }
     }
 
@@ -83,6 +87,11 @@
         color: $primary-blue !important;
         position: relative;
         z-index: 10;
+
+        @media only screen and (max-width: 430px) {
+            margin-right: auto;
+            margin-left: auto;
+        }
     }
 
     .questions {
