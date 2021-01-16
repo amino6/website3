@@ -1004,7 +1004,7 @@ section {
 @media only screen and (max-width: 430px) {
   .mobile-nav__item a:link,
   .mobile-nav__item a:visited {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 }
 
