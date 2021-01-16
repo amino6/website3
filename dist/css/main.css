@@ -17,8 +17,8 @@ ORDER: Base + typography > general layout + grid > page layout > components
 */
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?bg2s43");
-  src: url("../fonts/icomoon.eot?bg2s43#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff?bg2s43") format("woff"), url("../fonts/icomoon.ttf?bg2s43") format("truetype"), url("../fonts/icomoon.svg?bg2s43#icomoon") format("svg");
+  src: url("../../fonts/icomoon.eot?bg2s43");
+  src: url("../../fonts/icomoon.eot?bg2s43#iefix") format("embedded-opentype"), url("../../fonts/icomoon.woff?bg2s43") format("woff"), url("../../fonts/icomoon.ttf?bg2s43") format("truetype"), url("../../fonts/icomoon.svg?bg2s43#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -445,7 +445,7 @@ body {
       -ms-transform: translateX(-50%);
        -o-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-image: url("../img/building-1.webp");
+  background-image: url("../../img/building-1.webp");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -734,12 +734,6 @@ section {
   }
 }
 
-@media only screen and (max-width: 834px) {
-  .header .navigation {
-    display: none;
-  }
-}
-
 .header::before {
   content: "";
   display: inline-block;
@@ -772,6 +766,32 @@ section {
      -moz-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header .btn-hamburger {
+  display: none;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+     -moz-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-left: auto;
+  z-index: 100;
+  margin-right: 1rem;
+}
+
+.header .btn-hamburger span {
+  display: block;
+  width: 2.5rem;
+  height: 2px;
+  background-color: #2d314d;
+  margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 834px) {
+  .header .btn-hamburger {
+    display: block;
+  }
 }
 
 .header__text-box {
@@ -841,8 +861,7 @@ section {
        -moz-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    margin-right: 0;
-    margin-left: auto;
+    display: none;
   }
 }
 

@@ -4,8 +4,7 @@
     
     @media only screen and (max-width: 834px) {
         order: 2;
-        margin-right: 0;
-        margin-left: auto;
+        display: none;   
     }
 
     &__items {

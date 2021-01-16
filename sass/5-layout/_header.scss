@@ -5,12 +5,6 @@
     @media only screen and (max-width: 1100px) {
         padding: 2rem 4rem;
     }
-
-    .navigation {
-        @media only screen and (max-width: 834px) {
-            display: none;
-        }
-    }
     
     &::before {
         content: "";
@@ -32,6 +26,26 @@
     .container:first-child {
         display: flex;
         align-items: center;
+    }
+
+    .btn-hamburger {
+        display: none;
+        order: 1;
+        margin-left: auto;
+        z-index: 100;
+        margin-right: 1rem;
+
+        span {
+            display: block;
+            width: 2.5rem;
+            height: 2px;
+            background-color: #2d314d;
+            margin-bottom: 3px;
+        }
+
+        @media only screen and (max-width: 834px) {
+            display: block;
+        }
     }
 
     &__text-box {
