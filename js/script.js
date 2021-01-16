@@ -46,6 +46,15 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 }
 
 if(isIE || isSafari) {
+    // replace webp images in css
+    webp_imgs.forEach(img => {
+        let url = img.currentStyle || window.getComputedStyle(img, false).backgroundImage.replace(/"/g, "");
+        
+        if(url === img.currentStyle)
+            img.style.backgroundImage = url.backgroundImage.replace("webp","jpg");
+        else if(url === window.getComputedStyle(img, false).backgroundImage.replace(/"/g, ""))
+            img.style.backgroundImage = url.replace("webp","jpg");
+    });
     
     // replace webp images in html
     const script1 = document.createElement('script');
@@ -62,13 +71,3 @@ if(isIE || isSafari) {
         });
     });
 }
-
-// replace webp images in css
-webp_imgs.forEach(img => {
-    let url = img.currentStyle || window.getComputedStyle(img, false).backgroundImage.replace(/"/g, "");
-    
-    if(url === img.currentStyle)
-        img.style.backgroundImage = url.backgroundImage.replace("webp","jpg");
-    elseif(url === window.getComputedStyle(img, false).backgroundImage.replace(/"/g, ""))
-        img.style.backgroundImage = url.replace("webp","jpg");
-});
