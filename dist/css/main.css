@@ -804,6 +804,8 @@ section {
 @media only screen and (max-width: 430px) {
   .header .btn-hamburger {
     margin-left: .5rem;
+    margin-right: 0;
+    width: 3.2rem;
   }
 }
 
