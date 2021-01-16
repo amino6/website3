@@ -66,5 +66,8 @@ if(isIE || isSafari) {
 // replace webp images in css
 webp_imgs.forEach(img => {
     let url = img.currentStyle || window.getComputedStyle(img, false).backgroundImage.replace(/"/g, "");
-    img.style.backgroundImage = url.backgroundImage.replace("webp","jpg");
+    if(url === img.currentStyle)
+        img.style.backgroundImage = url.backgroundImage.replace("webp","jpg");
+    else
+        img.style.backgroundImage = url.replace("webp","jpg");
 });
